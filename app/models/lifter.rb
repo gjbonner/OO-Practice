@@ -1,3 +1,5 @@
+require 'pry'
+
 class Lifter
 
   ALL = []
@@ -15,6 +17,7 @@ class Lifter
   end
 
   def memberships
+
     Membership.all.select {|membership| membership.lifter == self}
   end
 
@@ -25,7 +28,8 @@ class Lifter
   def self.average_lift
     total = 0
     self.all.each {|lifter| total += lifter.lift_total}
-    total / ALL.length
+
+    total / (ALL.length)
   end
 
   def sign_up(cost, gym)
@@ -35,6 +39,7 @@ class Lifter
   def total_cost
     total = 0
     memberships.each { |membership| total += membership.cost }
+    total
   end
 
 

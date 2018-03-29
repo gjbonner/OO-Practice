@@ -14,6 +14,7 @@ class Gym
   end
 
   def memberships
+
     Membership.all.select {|membership| membership.gym == self}
   end
 
@@ -22,12 +23,13 @@ class Gym
   end
 
   def lifter_names
+
     lifters.map { |lifter| lifter.name }
   end
 
   def lift_total_for_gym
     total = 0
-    lifters.each {|lifter| total =+ lifter.lift_total}
+    lifters.each {|lifter| total += lifter.lift_total}
     total
   end
 
