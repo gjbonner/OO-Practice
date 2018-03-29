@@ -4,25 +4,34 @@ Word has just come from the higher-ups, and you're in charge of building out a d
 
 ## Deliverables
 
-Here's the data we need to be able to find.
+Here's what we need to be able to do.
 
 **Lifter**
 
-A list of all the lifters
+  # Get a list of all lifters
 
-A list of all the memberships that a specific lifter has
+  # Get a list of all the memberships that a specific lifter has
 
-A list of all the gyms that a specific lifter has memberships to
+  # Get a list of all the gyms that a specific lifter has memberships to
+
+  # Get the average lift total of all lifters
+
+  # Get the total cost of a specific lifter's gym memberships
+
+  # Sign a specific user up for a new gym
 
 **Membership**
 
-A list of all memberships
+  # Get a list of all memberships
 
 **Gym**
 
-A list of all gyms
+  # Get a list of all gyms
 
-A list of all memberships at a specific gym
+  # Get a list of all memberships at a specific gym
 
-A list of all the lifters that have a membership to a specific gym
-# OO-Practice
+  # Get a list of all the lifters that have a membership to a specific gym
+
+  # Get a list of the names of all lifters that have a membership to that gym
+
+  # Get the combined lift_total of every lifter has a membership to that gym
