@@ -1,37 +1,36 @@
 # LOOKIN' FOR ADVENTURE - HEAD OUT ON THE HIGHWAY
 
-Word has just come from the higher-ups, and you're in charge of building out a domain that keeps track of cars, their owners, and the mechanics that service them.  Each car has its own classification, like "antique", "exotic", or "clunker", and each mechanic has a specialization (these are the same as car classifications).  You don't want to take your sweet souped up '94 Camaro to some jerk that specializes in beamers right?
-
-The basics have been built out for you, but you'll need to figure out the relationships and create most of the methods.  Hook it up!
+You finally got yourself a fancy new gig and you've been put in charge of making a program to keep track of paintings, and the galleries that contain them.  
 
 ## Deliverables
 
 Here's what we need to be able to do.
 
-**CarOwner**
+**ARTIST**
 
-  - Get a list of all owners
+  - Get a list of all artists
 
-  - Get a list of all the cars that a specific owner has
+  - Get a list of all the paintings by a specific artists
 
-  - Get a list of all the mechanics that a specific owner goes to
+  - Get a list of all the galleries that a specific artist has paintings in
 
-  - Get the average amount of cars owned for all owners
+  - Get a list of all cities that contain galleries that a specific artist has paintings in
 
-**Car**
+  - Find the average years of experience of all artists
 
-  - Get a list of all cars
 
-  - Get a list of all car classifications
+**PAINTING**
 
-  - Get a list of mechanics that have an expertise that matches the car classification
+  - Get a list of all paintings
 
-**Mechanic**
+  - Get a list of all painting styles (a style should not appear more than once in the list)
 
-  - Get a list of all mechanics
+**GALLERY**
 
-  - Get a list of all cars that a mechanic services
+  - Get a list of all galleries
 
-  - Get a list of all the car owners that go to a specific mechanic
+  - Get a list of all cities that have a gallery. A city should not appear more than once in the list.
 
-  - Get a list of the names of all car owners go to a specific mechanic
+  - Get a list of artists that have paintings at a specific gallery
+
+  - Get the combined years of experience of all artists at a specific gallery
