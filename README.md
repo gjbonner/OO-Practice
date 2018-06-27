@@ -1,10 +1,10 @@
-# LOOKIN' FOR ADVENTURE - HEAD OUT ON THE HIGHWAY
+# Deedle deedle dooo, do do do do (Masterpiece Theater Music)
 
 You finally got yourself a fancy new gig and you've been put in charge of making a program to keep track of paintings, and the galleries that contain them.  
 
 Each painting has a style (eg. "impressionist", "abstract", "kindergarten"), and a title.  Each artist has a name and an amount of years actice, and each gallery has a name and a city.
 
-The bare bones have been created for you already, but you'll have to build out the rest.  Get to it!  Ignore the people who say "Don't, champ!".  Do Champ!  (get it?  Like, DuChamp?  Cuz he made art.  Look, it's all I got.) 
+The bare bones have been created for you already, but you'll have to build out the rest.  Get to it!  Ignore the people who say "Don't, champ!".  Do Champ!  (get it?  Like, DuChamp?  Cuz he made art.  Look, it's all I got.)
 
 ## Deliverables
 
