@@ -1,37 +1,37 @@
-# DO YOU EVEN LIFT!?
+# LOOKIN' FOR ADVENTURE - HEAD OUT ON THE HIGHWAY
 
-Word has just come from the higher-ups, and you're in charge of building out a domain that keeps track of weightlifters and the gyms they lift at.  Yes gyms. Everyone knows you need a weekday gym and a weekend gym. And one for when you're traveling, and one that you go to just to show off.  Oh, and that one with a really great steam room.  Gotta love the steam room.
+Word has just come from the higher-ups, and you're in charge of building out a domain that keeps track of cars, their owners, and the mechanics that service them.  Each car has its own classification, like "antique", "exotic", or "clunker", and each mechanic has a specialization (these are the same as car classifications).  You don't want to take your sweet souped up '94 Camaro to some jerk that specializes in beamers right?
+
+The basics have been built out for you, but you'll need to figure out the relationships and create most of the methods.  Hook it up!
 
 ## Deliverables
 
 Here's what we need to be able to do.
 
-**Lifter**
+**CarOwner**
 
-  - Get a list of all lifters
+  - Get a list of all owners
 
-  - Get a list of all the memberships that a specific lifter has
+  - Get a list of all the cars that a specific owner has
 
-  - Get a list of all the gyms that a specific lifter has memberships to
+  - Get a list of all the mechanics that a specific owner goes to
 
-  - Get the average lift total of all lifters
+  - Get the average amount of cars owned for all owners
 
-  - Get the total cost of a specific lifter's gym memberships
+**Car**
 
-  - Given a gym and a membership cost, sign a specific lifter up for a new gym
+  - Get a list of all cars
 
-**Membership**
+  - Get a list of all car classifications
 
-  - Get a list of all memberships
+  - Get a list of mechanics that have an expertise that matches the car classification
 
-**Gym**
+**Mechanic**
 
-  - Get a list of all gyms
+  - Get a list of all mechanics
 
-  - Get a list of all memberships at a specific gym
+  - Get a list of all cars that a mechanic services
 
-  - Get a list of all the lifters that have a membership to a specific gym
+  - Get a list of all the car owners that go to a specific mechanic
 
-  - Get a list of the names of all lifters that have a membership to that gym
-
-  - Get the combined lift_total of every lifter has a membership to that gym
+  - Get a list of the names of all car owners go to a specific mechanic
