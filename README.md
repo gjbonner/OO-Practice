@@ -34,4 +34,5 @@ Here's what we need to be able to do.
 
   - Get a list of all the car owners that go to a specific mechanic
 
-  - Get a list of the names of all car owners who go to a specific mechanic
+  - Get a list of the names of all car owners who
+  go to a specific mechanic
