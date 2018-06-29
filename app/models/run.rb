@@ -13,9 +13,10 @@ membership_1 = Membership.new(20,edge,giles)
 membership_2 = Membership.new(30,crunch,giles)
 membership_3 = Membership.new(30,crunch,thomas)
 
-# p giles.gyms
-# p edge
-# p membership_1
-# giles.new_membership(20, planet_fitness)
-# p giles.memberships
- p crunch.combined_lift_total
+giles.gyms
+ edge
+ membership_1
+giles.new_membership(20, planet_fitness)
+giles.memberships
+crunch.combined_lift_total
+binding.pry
